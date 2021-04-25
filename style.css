@@ -1,0 +1,167 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    
+}
+
+#container{
+    margin: 10% 25%;
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    justify-content: space-around;
+
+}
+
+.main{
+    color: white;
+    margin-top: 140px;
+    font-size: 20px;
+}
+
+.learn{
+    font-weight: 700;
+    
+}
+
+.try{
+    background-color: hsl(250, 46%, 43%) ;
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.form{
+    background-color:white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    text-align: center;
+
+}
+
+.label{
+    border-radius: 6px;
+    padding: 16px 120px;
+    border-color: whitesmoke;
+    border-style: solid;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.claim{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 20px 130px;
+    border: none;
+    font-size: 11px;
+}
+
+.disclaimer{
+    font-size: 10px;
+    color: rgb(192, 192, 192);
+    
+}
+
+.terms{
+    color: hsl(0, 100%, 74%) 
+}
+
+@media screen and (max-width: 375px) {
+    body {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+    }
+
+
+      #container{
+       
+        width: 45vw;
+        height: 100%;
+        padding-bottom: 10%;
+        display: grid;
+        position: absolute;
+        grid-template-columns: 1fr;
+        column-gap: 50px;
+        justify-content: space-around;
+    
+    }
+    
+    .main{
+        color: white;
+        margin-top: 1px;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    
+ 
+    .learn{
+        font-weight: 700; 
+    }
+    
+    
+    .try{
+        background-color: hsl(250, 46%, 43%) ;
+        border-radius: 10px;
+        padding: 15px 30px;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        
+    }
+    
+    .form{
+        background-color:white;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        text-align: center;
+    
+    }
+
+    
+    .label{
+        border-radius: 6px;
+        padding: 16px 120px;
+        border-color: whitesmoke;
+        border-style: solid;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    .claim{
+        background-color: green;
+        color: rgb(255, 255, 255);
+        border-radius: 6px;
+        padding: 20px 130px;
+        border: none;
+        font-size: 11px;
+    }
+    
+    .disclaimer{
+        font-size: 10px;
+        color: rgb(192, 192, 192);
+        
+    }
+    
+    .terms{
+        color: hsl(0, 100%, 74%) 
+    }
