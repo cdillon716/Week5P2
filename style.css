@@ -89,12 +89,12 @@ body{
 
 
       #container{
-       
         width: 45vw;
         height: 100%;
-        padding-bottom: 10%;
+        padding-left: 100px;
+        padding-right: 180px;
         display: grid;
-        position: absolute;
+        position: relative;
         grid-template-columns: 1fr;
         column-gap: 50px;
         justify-content: space-around;
